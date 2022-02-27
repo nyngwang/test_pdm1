@@ -6,7 +6,9 @@ readme = "./README.md"
 authors = [
     {name = "Ning Wang", email = "nyngwang@gmail.com"},
 ]
-dependencies = [ # this is production dependencies
+
+# this is production dependencies
+dependencies = [
     "requests>=2.27.1",
     "flask>=2.0.3",
 ]
