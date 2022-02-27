@@ -2,6 +2,7 @@
 name = "test_pdm"
 version = "0.0.1"
 description = "sample project to test pdm"
+readme = "./README.md"
 authors = [
     {name = "Ning Wang", email = "nyngwang@gmail.com"},
 ]
