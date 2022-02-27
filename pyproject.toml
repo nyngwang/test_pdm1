@@ -14,8 +14,10 @@ license = {text = "MIT"}
 
 [project.urls]
 Homepage = ""
-[tool.pdm]
 
 [build-system]
 requires = ["pdm-pep517"]
 build-backend = "pdm.pep517.api"
+
+[tool.pyright]
+extraPaths = ["__pypackages__/<major.minor>/lib/"]
