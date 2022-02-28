@@ -7,5 +7,6 @@ def main():
     print("$FOO is", os.environ["FOO"])
     test.foo()
 
+
 if __name__ == "__main__":
     main()
