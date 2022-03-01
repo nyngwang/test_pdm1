@@ -4,8 +4,7 @@ from lib import test_lib
 
 def main():
     test_env.from_toml()
-    for i in range(1, 10):
-        print(test_lib.emulated_switch(i))
+    test_lib.test_emulated_switch(10)
 
 
 if __name__ == "__main__":
