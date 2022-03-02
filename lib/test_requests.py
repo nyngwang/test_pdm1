@@ -1,6 +1,7 @@
 import requests
 
 from .test_lib import emulated_switch
+
 DEFAULT_URL = "https://xkcd.com/1906/"
 
 
